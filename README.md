@@ -1,12 +1,46 @@
-# React + Vite
+# 🎭 ReactTheaterCounter_250803
+After creating the [People-Counter-in-Theater_0710](https://github.com/michelle5434123/People-Counter-in-Theater_250710), with similar functionalities, I rebuilt this app with React called **TheaterCounter** that counts how many people enter a theater. It features an interactive counter UI with a clean layout, styled using CSS and enhanced with a background image.
+![image](https://github.com/user-attachments/assets/a2ab452c-4dcb-4849-ac36-798ca7e47b9c)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+## Features
+- Live-updating counter using React state
+- Accessible buttons with `aria-labels` for screen readers
+- Footer section for branding
+- Fully modular React component structure
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## How It Works
+- The app consists of two main components:
+  - `App.jsx`: Handles state (`count`) and renders the counter interface
+  - `Footer.jsx`: Renders the footer content
+- `useState` from React is used to keep track of the number of people
+- Button clicks call `add()` or `subtract()` to adjust the count
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## Notes
+- The background image file `ReactTheater.jpg` must be located in the root directory (or update the `background-image` path in `index.css`)
+
+
+## How to Run This Project Locally
+These instructions assume you have **Node.js** and **npm** installed on your computer. If not, download them from [nodejs.org](https://nodejs.org/).
+
+### 1. Clone or Download the Repo
+Click on the green **Code** button and choose **Download ZIP** or use Git:
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+```
+### 2. Install Dependencies:
+Make sure react, react-dom, and vite are included in your package.json
+```bash
+npm install
+```
+### 3. Start the Development Server
+If you’re using Vite (recommended for this setup):
+```bash
+npm run dev
+```
+This will start the server and Open the link in your browser.
+
+
