@@ -1,5 +1,6 @@
 # 🎭 ReactTheaterCounter_0803
 After creating the [People-Counter-in-Theater_0710](https://github.com/michelle5434123/People-Counter-in-Theater_250710), with similar functionalities, I rebuilt this app with React called **TheaterCounter** that counts how many people enter a theater. It features an interactive counter UI with a clean layout, styled using CSS and enhanced with a background image.
+
 ![image](https://github.com/user-attachments/assets/a2ab452c-4dcb-4849-ac36-798ca7e47b9c)
 
 
