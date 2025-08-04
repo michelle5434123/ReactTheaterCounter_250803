@@ -1,0 +1,70 @@
+body {
+  margin: 0; /*remove default setting*/
+  font-family: 'Inter', sans-serif;
+  background-color: #262626;
+  background-image: url("ReactTheater.jpg");
+  background-size: cover;       /* Optional: cover entire container */
+  background-position: center center; /* centers image horizontally & vertically */
+  background-repeat: no-repeat;       /* prevents the image from repeating */
+  background-attachment: fixed;       /* makes the image stay fixed while scrolling */
+  height: 400px;                /* Make the container visible */
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.4); /* semi-transparent black */
+  padding: 40px 80px;
+  border: 0.5px solid lightgray;       /* sets thickness, style, and color */
+  border-radius: 10px;
+  color: white;
+  margin-block: 100px 100px;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 200px;
+  height: 100%;
+  max-height: 100px;
+  margin-inline: auto;
+}
+
+.container > h2{
+  margin-top: 0px;
+}
+
+.counter{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.counter > button {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background-color: #737373;
+  color: #D9D9D9;
+  font-size: 1.5rem;
+}
+
+.counter > button:hover {
+  background-color: #404040;
+  color: #D9D9D9;
+}
+
+.counter > .count {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer{
+  background: black;
+  padding: 20px;
+  width: 100%;
+  margin: 0px;
+  display:
+}
+
+.footer > small {
+  color: gray;
+}
